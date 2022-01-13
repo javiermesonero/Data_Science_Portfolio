@@ -69,9 +69,9 @@ def panel0(df):
 
     c1,c2=st.columns(2)
     with c1:
-        st.image('../img/hotel_ciudad.jpg')
+        st.image('./img/hotel_ciudad.jpg')
     with c2:
-        st.image('../img/hotel_campo.jpg')
+        st.image('./img/hotel_campo.jpg')
 
     st.dataframe(df.head())
 
