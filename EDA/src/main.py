@@ -1,6 +1,9 @@
+import sys
+sys.path.insert(0, './utils/')
+
 import streamlit as st
 import pandas as pd
-import functions as ft
+import functions  as ft
 
 csvPath='../data/hotel_bookings.csv'
 ft.configuracion()
