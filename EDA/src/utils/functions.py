@@ -65,15 +65,24 @@ def menu(df,df_city,df_resort):
 
 
 def panel0(df):
-    st.write('''EDA: hoteles en Portugal''') 
+    
+    a,b,c = st.columns([1,2,1])
+    with a:
+        st.write(' ')
+    with b:
+        st.title('''EDA: hoteles en Portugal''') 
 
-    c1,c2=st.columns(2)
-    with c1:
-        st.image('./img/hotel_ciudad.jpg')
+    with c:
+        st.write(' ')
+    c1,c2,c3=st.columns([1,2,2])
     with c2:
+        st.image('./img/hotel_ciudad.jpg')
+    with c3:
         st.image('./img/hotel_campo.jpg')
-
-    st.dataframe(df.head())
+    with c1:
+        st.write( ' ')    
+    with st.expander('Formato de los datos',expanded=False):
+        st.dataframe(df.head())
 
 def mostrarGraficaBarras(df,tiempo,scale):
     #muestra una grafica de barras con tres medidas, suma de adultos,ninos y bebes en un determinado tiempo: ano, mes, semana
