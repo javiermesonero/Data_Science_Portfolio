@@ -16,10 +16,16 @@
 Proyecto EDA, The Bridge 2022
 
 
+### [Machine Learning](https://github.com/javiermesonero/Data_Science_Portfolio/tree/main/Machine%20Learning)
+
+* El proyecto es una continuación del proyecto [EDA](https://github.com/javiermesonero/Data_Science_Portfolio/tree/main/EDA).
+
+* Busca predecir si la reserva del hotel se va a cancelar.
+
+* Se utilizan varios modelos de Machine Learning con el fin de obtener los mejores resultados posibles, además se utilizan técnicas de preprocesado de datos, selección de variables y búsqueda de parámetros con el fin de obtener el mejor modelo posible. 
+
+* El proyecto consiste en un Notebook de python con los distintos pasos seguidos para obtener los mejores resultados para clasificar. 
 
 
-
-
-
-
+Proyecto Machine Learning, The Bridge 2022
 
